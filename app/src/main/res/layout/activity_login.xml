@@ -54,18 +54,6 @@
         android:paddingVertical="12dp"
         android:enabled="true"/>
 
-    <!--<ImageView
-    android:id="@+id/ivWatermark"
-    android:layout_width="80dp"
-    android:layout_height="80dp"
-    android:layout_marginStart="16dp"
-    android:layout_marginBottom="16dp"
-    android:alpha="0.6"
-    android:src="@drawable/perasconmanzanas_icon"
-    android:contentDescription="Sello de agua de inventario"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintStart_toStartOf="parent" />-->
-
     <!-- Indicador de carga -->
     <ProgressBar
         android:id="@+id/progressBar"

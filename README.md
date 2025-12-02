@@ -140,83 +140,67 @@ Verifica que los elementos esenciales de UI están presentes:
 <table width="100%">
     <tr>
         <td align="center" width="33%">
-            <img src="scrapbook/Icono.png" alt="Icono App" width="200"/>
+            <img src="scrapbook/Instalacion.png" alt="Icono App" width="200"/>
         </td>
         <td align="center" width="33%">
-            <img src="scrapbook/Lanzamiento.png" alt="Al lanzar la app" width="200"/>
+            <img src="scrapbook/SplashInicial.png" alt="Al lanzar la app" width="200"/>
         </td>
         <td align="center" width="33%">
-            <img src="scrapbook/SplashInventarioAPI.png" alt="Pantalla bienvenida" width="200"/>
+            <img src="scrapbook/Landing.png" alt="Pantalla bienvenida" width="200"/>
         </td>
     </tr>
     <tr>
         <td align="center">App instalada</td>
-        <td align="center">Al lanzar la App</td>
-        <td align="center">Landing y bienvenida</td>
+        <td align="center">Splash inicial</td>
+        <td align="center">Landing Login</td>
     </tr>
     <tr>
         <td align="center">
-            <img src="scrapbook/paginaInicialListaInventario.png" alt="Lista de productos" width="200"/>
+            <img src="scrapbook/CredencialesCorrrectas.png" alt="Lista de productos" width="200"/>
         </td>
         <td align="center">
-            <img src="scrapbook/AddProducto.png" alt="Agregar producto" width="200"/>
+            <img src="scrapbook/Exitoso.png" alt="Agregar producto" width="200"/>
         </td>
         <td align="center">
-            <img src="scrapbook/AddZapallo01.png" alt="Agregando Zapallo" width="200"/>
+            <img src="scrapbook/CamposVacios.png" alt="Agregando Zapallo" width="200"/>
         </td>
     </tr>
     <tr>
-        <td align="center">Listado inicial (por defecto vacía), muestra íconos para borrar o editar</td>
-        <td align="center">Agregar un producto</td>
-        <td align="center">Agregar producto ejemplo "Zapallo"</td>
+        <td align="center">Credenciales correctas</td>
+        <td align="center">Autenticación exitosa, retorna TOKEN JWT</td>
+        <td align="center">Campos vacíos</td>
     </tr>
     <tr>
         <td align="center">
-            <img src="scrapbook/AddedZapallo.png" alt="Producto Zapallo agregado" width="200"/>
+            <img src="scrapbook/CredencialesIncorrectas.png" alt="Producto Zapallo agregado" width="200"/>
         </td>
         <td align="center">
-            <img src="scrapbook/EditZapallo.png" alt="Editar producto Zapallo" width="200"/>
+            <img src="scrapbook/IngresarCredenciales.png" alt="Editar producto Zapallo" width="200"/>
         </td>
         <td align="center">
-            <img src="scrapbook/DeleteZapallo.png" alt="Borrar producto Zapallo" width="200"/>
+            <img src="scrapbook/TestUI_01.png" alt="Borrar producto Zapallo" width="200"/>
         </td>
     </tr>
     <tr>
-        <td align="center">Producto 'Zapallo' agregado</td>
-        <td align="center">Editar producto 'Zapallo'</td>
-        <td align="center">Borrar producto 'Zapallo'</td>
+        <td align="center">Credenciales incorrectas</td>
+        <td align="center">Ingresar credenciales</td>
+        <td align="center">Pruebas de Interfaz</td>
     </tr>
     <tr>
         <td align="center">
-            <img src="scrapbook/Listado01.png" alt="Listado actualizado " width="200"/>
+            <img src="scrapbook/testUnitario.png" alt="Listado actualizado " width="200"/>
         </td>
         <td align="center">
-            <img src="scrapbook/testUI_01_InsertarProducto.png" alt="Prueba UI Insertar producto" width="200"/>
+            <img src="scrapbook/testUnitario02.png" alt="Prueba UI Insertar producto" width="200"/>
         </td>
         <td align="center">
-            <img src="scrapbook/testUI_02_ListaProductosUI_BotonFAB.png" alt="Prueba UI Lista Productos" width="200"/>
+            <img src="scrapbook/perasconmanzanas.png" alt="Prueba UI Lista Productos" width="200"/>
         </td>
     </tr>
     <tr>
-        <td align="center">Listado actualizado</td>
-        <td align="center">Prueba UI01: Insertar producto</td>
-        <td align="center">Prueba UI02: Lista productos</td>
-    </tr>
-     <tr>
-        <td align="center">
-            <img src="scrapbook/testUnitario_01_InventoryViewModelTest.png" alt="Prueba Unitaria InventoryViewModel" width="200"/>
-        </td>
-        <td align="center">
-            <img src="scrapbook/testUnitario_02_InventoryRepositoryTest.png" alt="Prueba Unitaria InventoryRepository" width="200"/>
-        </td>
-        <td align="center">
-            <img src="scrapbook/testUnitario_03_ProductoMapperTest.png" alt="Prueba Unitaria ProductoMapper" width="200"/>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">Prueba Unitaria: ViewModel</td>
-        <td align="center">Prueba Unitaria: Repository</td>
-        <td align="center">Prueba Unitaria: Mapeo de productos</td>
+        <td align="center">Pruebas Unitarias 01</td>
+        <td align="center">Pruebas Unitarias 02</td>
+        <td align="center">Otro desarrollo Peras con Manzanas</td>
     </tr>
 </table>
 
