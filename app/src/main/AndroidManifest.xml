@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mod6.ae3_abpro1_loginapp">
+
+    <!-- Asegúrese de que el paquete superior sea correcto -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ae3_abpro1_LoginApp">
+
+        <!-- 1. Declaración de la actividad de Login (LoginActivity) -->
+        <activity
+            android:name=".presentation.LoginActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- 2. Declaración de la actividad principal (MainActivity) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- 3. Splash inicial bienvenida y botón continuar -->
+        <activity
+            android:name=".presentation.SplashInicialActivity"
+            android:exported="false"
+            android:enabled="false" />
+
+        <!-- 4. Splash final cuando confirma autenticación exitosa -->
+        <activity
+            android:name=".presentation.SplashFinalActivity"
+            android:exported="false"/>
+
+    </application>
+</manifest>
