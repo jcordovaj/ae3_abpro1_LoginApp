@@ -236,7 +236,7 @@ a. **Clonar el repositorio:**
 
 ```bash
 
-https://github.com/jcordovaj/EvalFinal_InventarioAPI.git
+https://github.com/jcordovaj/ae3_abpro1_LoginApp.git
 
 ```
 
@@ -276,7 +276,7 @@ e.3. Si todo ha sido configurado correctamente, la aplicación se instalará en 
 
 ## 📦 Generación del Paquete de Producción (APK/AAB)
 
-Para subir la aplicación a Google Play Store o distribuirla, debes generar un paquete de _release_ (generalmente un AAB) firmado.
+Para subir la aplicación a Google Play Store o distribuirla, se debe generar un paquete de _release_ (generalmente un AAB) firmado.
 
 ### 1 Generar la Clave de Firma (Si es la primera vez)
 
