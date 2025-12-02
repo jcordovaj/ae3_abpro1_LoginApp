@@ -194,7 +194,7 @@ Verifica que los elementos esenciales de UI están presentes:
             <img src="scrapbook/testUnitario02.png" alt="Prueba UI Insertar producto" width="200"/>
         </td>
         <td align="center">
-            <img src="scrapbook/perasconmanzanas.png" alt="Prueba UI Lista Productos" width="200"/>
+            <img src="scrapbook/PERASCONMANZANAS.png" alt="Prueba UI Lista Productos" width="200"/>
         </td>
     </tr>
     <tr>
